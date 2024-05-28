@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Kodinger">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>My Login Page &mdash; Bootstrap 4 Login Page Snippet</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/my-login.css">
+</head>
+<header>
+	<nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom" >
+        <div class="container-fluid">
+          <h2 class="navbar-brand fs-2"  href="#">Banker-<span class="text-primary">Bot</span></h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="logo">
+            <a class="navbar-brand" href="#">
+              <img src="images/logo1.jpg" alt="bootstrap" width="60" height="40">
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Register.html">SIGN UP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-primary" href="login.html">LOG IN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT US</a>
+              </li>
+            </ul> 
+          </div>
+        </div>
+    </nav>
+</header>
+  <div>
+    <marquee id="m" direction="left" behavior="scroll" onmouseover="stop()" onmouseout="start()">🤖🤖🤖🤖🤖BANKING BOT👾👾👾👾👾</marquee>
+  </div>
+  <div>
+    <marquee id="ma" direction="right" behavior="scroll" onmouseover="stop()" onmouseout="start()" >👉👉👉👉👉 ALWAYS AVAILABLE TO ASSIST YOU WITH ANY BANKING ISSUE♥♥♥♥♥</marquee>
+  </div>
+<body class="my-login-page">
+	<section class="h-100">
+		<div class="container h-100">
+			<div class="row justify-content-md-center align-items-center h-100">
+				<div class="card-wrapper">
+					<div class="brand">
+						<img src="images/logo1.jpg" alt="bootstrap 4 login page">
+					</div>
+					<div class="card fat">
+						<div class="card-body">
+							<h4 class="card-title">Forgot Password</h4>
+							<form method="POST" class="my-login-validation" novalidate="">
+								<div class="form-group">
+									<label for="email">E-Mail Address</label>
+									<input id="email" type="email" class="form-control" name="email" value="" required autofocus>
+									<div class="invalid-feedback">
+										Email is invalid
+									</div>
+									<div class="form-text text-muted">
+										By clicking "Reset Password" we will send a password reset link
+									</div>
+								</div>
+
+								<div class="form-group m-0">
+									<button type="submit" class="btn btn-primary btn-block">
+										Reset Password
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="js/my-login.js"></script>
+</body>
+<footer>
+	<section class="services py-5 bg-light">
+		 <div class="container">
+		  <div class="text-center my-5">
+		   <h1>Our <span class="text-primary"> Services</span></h1>
+		   <hr / class="w-25 m-auto">
+		  </div>
+   
+		  <div class="row">
+		  <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+		   <div class="card">
+			 <div class="card-body">
+			   <h5 class="card-title">Special title treatment</h5>
+			   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			   <a href="#" class="btn btn-primary">Go somewhere</a>
+			 </div>
+		   </div>
+		  </div>
+   
+		  <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+		   <div class="card">
+			 <div class="card-body">
+			   <h5 class="card-title">Special title treatment</h5>
+			   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			   <a href="#" class="btn btn-primary">Go somewhere</a>
+			 </div>
+		   </div>
+		  </div>
+		  <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+		   <div class="card">
+			 <div class="card-body">
+			   <h5 class="card-title">Special title treatment</h5>
+			   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			   <a href="#" class="btn btn-primary">Go somewhere</a>
+			 </div>
+		   </div>
+		  </div>
+		 </div>
+		 </div>
+	</section>
+   </footer>	
+   
+</html>
